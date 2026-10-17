@@ -1,0 +1,10 @@
+.tools/
+**/bin/
+**/obj/
+dist/
+*.user
+diagnostics.json
+portable-diagnostics.json
+preview.png
+Thumbs.db
+.DS_Store

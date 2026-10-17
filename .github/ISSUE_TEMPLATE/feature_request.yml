@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement to screenshot capture, pairing, or setup.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Describe how you use Steam screenshots today. Please do not attach personal screenshots, account IDs, or diagnostic files."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you expect the helper to do?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Windows, game, and display context
+    validations:
+      required: false
